@@ -398,3 +398,103 @@ a:link {
   width: 353px;
   object-fit: cover;
 }
+
+.tabs {
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs label {
+  transition: background 0.4s ease-in-out, height 0.2s linear;
+  display: inline-block;
+  cursor: pointer;
+  color: #2ebeb9;
+  width: 33%;
+  height: 3em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #fcfcfc;
+  text-align: center;
+  line-height: 3em;
+}
+.tabs label:last-of-type {
+  border-bottom: none;
+}
+.tabs label:hover {
+  background: #10b153;
+  border-radius: 40px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1600px) {
+  .tabs label {
+    width: 15%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tabs label {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tabs label {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #c7c6c4;
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tabs {
+    margin: 0;
+  }
+}
+
+#tab1:checked + label,
+#tab2:checked + label,
+#tab3:checked + label,
+#tab4:checked + label {
+  background: #ddd;
+  color: #000;
+  border-radius: 40px;
+}
+
+.tab-content {
+  position: absolute;
+  top: -9999px;
+  padding: 10px;
+}
+
+.tab-content-wrapper {
+  background: #fcfcfc;
+  /* border-top: #2EBEB9 5px solid; */
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+@media screen and (max-width: 600px) {
+  .tab-content-wrapper,
+  .tab1-content-wrapper {
+    border: none;
+    border-radius: 0;
+  }
+}
+
+#tab1:checked ~ .tab-content-wrapper #tab-content-1,
+#tab2:checked ~ .tab-content-wrapper #tab-content-2,
+#tab3:checked ~ .tab-content-wrapper #tab-content-3,
+#tab4:checked ~ .tab-content-wrapper #tab-content-4 {
+  position: relative;
+  top: 0px;
+}
+
+.btnSuccess {
+  border-radius: 30px !important;
+  background-color: #3ea75c !important;
+}
+
+.btnEnglish {
+  background-color: #ddd !important;
+  border-radius: 30px !important;
+  width: 120px !important;
+  font-weight: bold;
+}

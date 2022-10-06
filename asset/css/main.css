@@ -81,6 +81,7 @@
 
 .Icon-what {
   margin-top: 27px;
+  margin-bottom: 27px;
   width: 35px;
   height: 35px;
 }
@@ -90,7 +91,7 @@
 }
 
 .what-small2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .Mx-v {
   display: none;

@@ -205,6 +205,66 @@
   </section>
   <!-- banner end -->
 
+  <!-- How to apply -->
+  <section class="my-5">
+    
+    <h1 class="text-dark text-center fw-bolder">How to apply ?</h1>
+
+    <div class="container my-4">
+      <div class="tabs">
+        <input type="radio" name="tab" id="tab1" checked="checked">
+        <label for="tab1" class="fw-bold">Candidates</label>
+        <input type="radio" name="tab" id="tab2">
+        <label for="tab2" class="fw-bold">Portfolio</label>
+        <input type="radio" name="tab" id="tab3">
+        <label for="tab3" class="fw-bold">Archives</label>
+
+      
+        <div class="tab-content-wrapper">
+          <div id="tab-content-1" class="tab-content">
+            
+            <div class="row">
+              <div class="col-md-8">
+                <button class="btn btnEnglish">English</button>
+                <h5 class="fw-bold my-2 text-center">English User Manual</h5>
+
+                <div class="row">
+                  <div class="col-md-10 mx-auto">
+                    <p>
+                      Need help in SVP Candidate registration. Follow the below link to View and Download the Complete Registration Manual and User Guide for registration in SVP program.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+
+              </div>
+            </div>
+           
+
+            <button class="btn btn-success btnSuccess">View User Guide/ Download</button>
+          </div>
+          <div id="tab-content-2" class="tab-content">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur mattis nibh, non ornare neque. In bibendum consequat imperdiet. Duis eros ex, vestibulum vel fermentum ut, gravida at turpis. Etiam porta sem dolor, at finibus metus consequat a. Aliquam erat volutpat.  </p>
+          </div>
+          <div id="tab-content-3" class="tab-content">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur mattis nibh, non ornare neque. In bibendum consequat imperdiet. Duis eros ex, vestibulum vel fermentum ut, gravida at turpis. Etiam porta sem dolor, at finibus metus consequat a. Aliquam erat volutpat. Donec sollicitudin metus quis magna faucibus, vitae ultrices libero ultrices. Sed ut dui vitae velit laoreet commodo. Nam suscipit purus a ultricies auctor. </p>
+          </div>
+          <div id="tab-content-4" class="tab-content">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur mattis nibh, non ornare neque. In bibendum consequat imperdiet. Duis eros ex, vestibulum vel fermentum ut, gravida at turpis. Etiam porta sem dolor, at finibus metus consequat a. Aliquam erat volutpat. </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- End -->
+
   <!-- card content start -->
   <section class="py-3">
     <div class="card-items container">
@@ -610,6 +670,38 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+  $("#tab1").click(moveToFirst);
+  $("#tab2").click(moveToSecond);
+  $("#tab3").click(moveToThird);
+  $("#tab4").click(moveToFour);
+
+  function moveToFirst() {
+    $("#slide").attr("class", "move-to-first");
+    $(".tab").attr("class", "tab");
+    $("#tab1").attr("class", "tab selected");
+  }
+
+  function moveToSecond() {
+    $("#slide").attr("class", "move-to-second");
+    $(".tab").attr("class", "tab");
+    $("#tab2").attr("class", "tab selected");
+  }
+
+  function moveToThird() {
+    $("#slide").attr("class", "move-to-third");
+    $(".tab").attr("class", "tab");
+    $("#tab3").attr("class", "tab selected");
+  }
+
+  function moveToFour() {
+    $("#slide").attr("class", "move-to-four");
+    $(".tab").attr("class", "tab");
+    $("#tab4").attr("class", "tab selected");
+  }
+</script>
+
 </body>
 
 </html>
