@@ -1,286 +1,250 @@
-.about{
-    background-color: #00acd733;
-    font-size: 1rem;
-    
-    padding: 10% !important;
+.about {
+  background-color: #00acd733;
+  font-size: 1rem;
+
+  padding: 10% !important;
 }
 .wrapper {
-    padding-top: 8.25rem;
-    padding-bottom: 8.25rem;
-  }
-.about-text{
-    text-align: justify !important;
+  padding-top: 8.25rem;
+  padding-bottom: 8.25rem;
 }
-
+.about-text {
+  text-align: justify !important;
+}
+.item-list {
+  border: 1px solid #009639;
+  text-decoration: none;
+  background-color: #17a2b8;
+}
 
 .about-right {
-    position: absolute;
-    top: 0px;
-    background-image: 
-    linear-gradient(to right, #0e4f8b,
-    #15B8E3);
-    right: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    border-radius: 30px 0px 0px 30px;
-    
-    margin-bottom: 20px;
-    
+  position: absolute;
+  top: 0px;
+  /* background-image: 
+  linear-gradient(to right, #0c8f17,
+  #15B8E3); */
+  background-color: #009639;
+  right: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  border-radius: 30px 0px 0px 30px;
+
+  margin-bottom: 20px;
 }
 .about-container {
-    position: relative;
+  position: relative;
+}
 
-    
-  }
-
-
-  
 /* _______________*/
 
-
-.what{
-    background-color: rgb(255, 255, 255);
-    font-size: 1rem;
-    padding: 10% !important;
+.what {
+  background-color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding: 10% !important;
 }
 
-.what-text{
-    text-align: justify;
+.what-text {
+  text-align: justify;
 }
-
 
 .what-left {
-    position: absolute;
-    top: 0px;
-    background-image: 
-    linear-gradient(to right,#15B8E3, #0e4f8b);
-    top: 0px;
-    left: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    border-radius: 0px 30px 30px 0px;
-    margin-bottom: 0px;
-    
+  position: absolute;
+  top: 0px;
+  background-color: #009639;
+  top: 0px;
+  left: 0px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  border-radius: 0px 30px 30px 0px;
+  margin-bottom: 0px;
 }
 
 .what-container {
-    position: relative;
-    background-color: rgb(248, 250, 249);
-    
-    
-  }
-
-.What_Circle{
-    /* margin-top: 60px !important; */
-    position: relative;
-    border-radius: 50%;
-    width: 350px !important;
-    height: 350px !important;
-    border: 1px solid rgba(0, 174, 255, 0.801);
-}
-.what-img{
-    width: 250px;
-    height: 250px;
-    margin-top: 50px;
-    
+  position: relative;
+  background-color: rgb(248, 250, 249);
 }
 
-.Icon-what{
-    margin-top: 27px;
-    width: 35px;
-    height: 35px;
-
+.What_Circle {
+  /* margin-top: 60px !important; */
+  position: relative;
+  border-radius: 50%;
+  width: 350px !important;
+  height: 350px !important;
+  border: 1px solid rgba(0, 174, 255, 0.801);
+}
+.what-img {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
 }
 
-.what-small{
-    font-size: 1.4rem;
-    
+.Icon-what {
+  margin-top: 27px;
+  width: 35px;
+  height: 35px;
 }
 
-.what-small2{
-    font-size: 1.4rem;
-    
+.what-small {
+  font-size: 1.4rem;
+}
+
+.what-small2 {
+  font-size: 1.4rem;
 }
 .Mx-v {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .What-mobile{
-       width: 100%;
-       margin-top: 20px;
-       text-align: left !important;
-       border: 1px solid rgb(19, 187, 238);
-       padding-bottom: 10px;
-       padding-left: 60px;
-       position: relative;
-    }
-    .Mx-v {
-        display: block;
-        position: absolute;
-        bottom: 30px;
-        left: 10px;
-
-    }
-      .MobileNone{
-          display: none;
-      }
+  .What-mobile {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left !important;
+    border: 1px solid rgb(19, 187, 238);
+    padding-bottom: 10px;
+    padding-left: 60px;
+    position: relative;
   }
-
+  .Mx-v {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+  }
+  .MobileNone {
+    display: none;
+  }
+}
 
 .MGES-container {
-    position: relative;
-    
-    
-  }
-
-  .centered_About {
-    position: absolute;
-    top: 50%;
-    left: 15.2%;
-    width: 30% !important;
-    overflow: hidden;
-    transform: translate(-50%, -50%);
-  }
-
-
-
-  .Footer{
-    background-image: 
-    linear-gradient(to right, 
-    #15B8E3 , #1e3867);
-    font-weight: 400;
+  position: relative;
 }
 
-.FooterBot{
-    border-top:1px solid white ;
-    font-weight: 600;
+.centered_About {
+  position: absolute;
+  top: 50%;
+  left: 15.2%;
+  width: 30% !important;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
 }
 
-.href a{
-    text-decoration: none ;
-    color: white;
+.Footer {
+  background-image: linear-gradient(to right, #15b8e3, #1e3867);
+  font-weight: 400;
 }
 
-.href a:hover{
-    text-decoration: none ;
-    color: white;
-
+.FooterBot {
+  border-top: 1px solid white;
+  font-weight: 600;
 }
 
 .href a {
-    display: inline-block;
-    position: relative;
-    color: white;
-  }
-  
-  .href a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    top:0;
-    bottom: 0;
-    left: 0;
-    margin-top: 25px;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-
-
-  .href a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    top:0;
-    bottom: 0;
-    left: 0;
-    margin-top: 25px;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .href a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-
-  .FootBtn{
-      color: white;
-  }
-  .FootBtn:hover{
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: white;
 }
 
-.PHead{
-    font-size: 20px;
+.href a:hover {
+  text-decoration: none;
+  color: white;
 }
 
-
-
-
-
-
-
-.view{
-    background-color: #15b6e33b;
-    border-radius: 15px;
-    /* position: relative; */
-    height: 25vh;
-    margin-top: 50px !important;
-    
+.href a {
+  display: inline-block;
+  position: relative;
+  color: white;
 }
 
-.card-Title{
-    text-transform: uppercase;
+.href a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 25px;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
-
-.IconView{
-    width: 35%;
-    margin-bottom: 35px;
+.href a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 25px;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
-.ParentView{
-    position: relative;
-    top: -100px;
-    
+.href a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
+.FootBtn {
+  color: white;
+}
+.FootBtn:hover {
+  color: rgb(0, 0, 0);
+}
 
+.PHead {
+  font-size: 20px;
+}
 
+.view {
+  background-color: #15b6e33b;
+  border-radius: 15px;
+  /* position: relative; */
+  height: 25vh;
+  margin-top: 50px !important;
+}
 
+.card-Title {
+  text-transform: uppercase;
+}
 
+.IconView {
+  width: 35%;
+  margin-bottom: 35px;
+}
 
+.ParentView {
+  position: relative;
+  top: -100px;
+}
 
-
-.MEGS-info{
-    background-color: rgba(0, 204, 255, 0.171);
-    height: 100vh;
+.MEGS-info {
+  background-color: rgba(0, 204, 255, 0.171);
+  height: 100vh;
 }
 
 @media only screen and (min-width: 1400px) {
-    .MEGS-info{
-        background-color: rgba(0, 204, 255, 0.171);
-        height: 75vh;
-    }
+  .MEGS-info {
+    background-color: rgba(0, 204, 255, 0.171);
+    height: 75vh;
   }
-
-.ABXS{
-    margin-top: 100px;
 }
 
-.Modules{
-    background-color: #6ee2ff5b !important;
-    border: none !important;
+.ABXS {
+  margin-top: 100px;
 }
 
-.infoText{
-    color: #020585 !important;
+.Modules {
+  background-color: #6ee2ff5b !important;
+  border: none !important;
 }
 
+.infoText {
+  color: #020585 !important;
+}

@@ -20,18 +20,21 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <title>mGES Login</title>
+    <title>PVE Login</title>
   </head>
   <body>
     <div class="bodyHeight">
-      <div class="row">
+      <div class="row log-page">
         <div
-          class="col-md-6 d-flex justify-content-center align-items-center my-2"
+          class="col-md-6 mx-auto d-flex justify-content-center align-items-center my-2"
         >
-          <div class="p-4 bg-light bgShadow">
+          <div class="p-4 bg-light bgShadow text-center">
+            <img class="pve-img" src="./asset/img/PVE_LOGO/pvc.png" alt="" />
             <form action="">
               <div class="text-center">
-                <h5 class="my-4 fw-bolder">Member Login</h5>
+                <h5 class="my-4 fw-bolder text-success">
+                  <u>Professional Verification Ecosystem-Login</u>
+                </h5>
                 <input
                   type="email"
                   name=""
@@ -48,39 +51,52 @@
                   name=""
                   id=""
                 />
-                <button class="form-control signInButton my-4">Sign In</button>
-                <p><small>Forget Username/Password</small></p>
-                <p class="mt-5 pt-4">
-                  <small>Create your Account</small
-                  ><i class="fa-solid fa-right-long"></i>
-                </p>
+
+                <div class="d-flex justify-content-between mt-4">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Remember me</label
+                    >
+                  </div>
+                  <div>
+                    <p>
+                      <small class="text-primary"
+                        >Forget Username/Password</small
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <button class="form-control signInButton my-4 text-light">
+                  Sign In
+                </button>
+
+                <div class="d-flex justify-content-center">
+                  <div class="acc-border"></div>
+                  <div>
+                    <p class="mx-2">Don't have an account? Register as</p>
+                  </div>
+                  <div class="acc-border"></div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <button class="center-button text-center text-light">
+                    Assesment Center
+                  </button>
+                  <button class="assesor-button text-center text-light">
+                    Assessor
+                  </button>
+                  <button class="candidet-button text-center text-light">
+                    Candidate
+                  </button>
+                </div>
               </div>
             </form>
           </div>
-        </div>
-        <div
-          class="col-md-6 rightSideContainer d-flex flex-column justify-content-evenly"
-        >
-          <div class="d-flex justify-content-around">
-            <div></div>
-            <img
-              class="img-fluid mGesWhite"
-              src="./asset/img/credintialImg/AllOutput/MGES-Logo-White.png"
-              width="250px"
-              alt=""
-            />
-          </div>
-          <div class="d-flex justify-content-center">
-            <div class="d-flex justify-content-end airFlying p-3">
-              <img
-                class="p-5 borderRadiusAirplane img-fluid ms-5"
-                src="./asset/img/credintialImg/airplane.gif"
-                width="400px"
-                alt=""
-              />
-            </div>
-          </div>
-          <div></div>
         </div>
       </div>
     </div>

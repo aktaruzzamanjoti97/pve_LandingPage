@@ -110,6 +110,18 @@ body {
   background-color: #fff;
 }
 
+.cardColor1 {
+  background-color: #28a745 !important;
+}
+.cardColor2 {
+  background-color: #17a2b8 !important;
+}
+
+.bottomDivWhite {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+
 /* card content style */
 .card-content {
   cursor: pointer;
